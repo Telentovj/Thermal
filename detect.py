@@ -88,6 +88,7 @@ def detect(img,im0s):
             scores= []
             classes= []
             for i in range(num_objects):
+                #insert minimum bounding box size here 
                 bboxes.append(buffer[i][:4])
                 scores.append(buffer[i][4])
                 classes.append(buffer[i][6])
