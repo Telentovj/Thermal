@@ -210,7 +210,7 @@ def startStream(args):
 		
 		# We refresh every 15 frames so that we can redetected the objects, then we track the detected objects
 		# Hence we will be having 60 frame cycles
-		if totalFrames%15 == 0:
+		if totalFrames%20 == 0:
 			if totalFrames%75:
     				solidDetections = 0
 			# Ensure that the pervious process is terminated.
@@ -340,10 +340,10 @@ def startStream(args):
 						cv2.FONT_HERSHEY_SIMPLEX, 0.45, colour, 2)
 		# check to see if we should write the frame to disk
 
-		cv2.rectangle(frame, (bedbbox[0][0], bedbbox[0][1]), (bedbbox[0][2], bedbbox[0][3]),
-			(200,120,200), 2)	
-		cv2.putText(frame, "People on bed: " + str(bedCounter[0]), (bedbbox[0][1], bedbbox[0][1] - 15),
-						cv2.FONT_HERSHEY_SIMPLEX, 0.45, (200,120,200), 2)
+		# cv2.rectangle(frame, (bedbbox[0][0], bedbbox[0][1]), (bedbbox[0][2], bedbbox[0][3]),
+		# 	(200,120,200), 2)	
+		# cv2.putText(frame, "People on bed: " + str(bedCounter[0]), (bedbbox[0][1], bedbbox[0][1] - 15),
+		# 				cv2.FONT_HERSHEY_SIMPLEX, 0.45, (200,120,200), 2)
 
 		if writer is not None:
 			writer.write(frame)

@@ -5,7 +5,7 @@ from utils.utils import *
 #img -> image_data
 #im0s -> normal
 def detect(img,im0s):
-    img_size = (416,416)
+    img_size = (128,128)
     weights, half= 'weights/frozenBest.pt', True
 
     # Initialize
@@ -90,8 +90,8 @@ def detect(img,im0s):
             scores= []
             classes= []
             for i in range(num_objects):
-                if (buffer[i][2]-buffer[i][0])*(buffer[i][3]-buffer[i][1]) > 6000 and buffer[i][6] == 0.0:
-                    if buffer[i][4] > 0.01:
+                if (buffer[i][2]-buffer[i][0])*(buffer[i][3]-buffer[i][1]) > 0 and buffer[i][6] == 0.0:
+                    if buffer[i][4] > 0.5:
                         validDetections+=1
                         #insert minimum bounding box size here 
                         bboxes.append(buffer[i][:4])
