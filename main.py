@@ -1,5 +1,5 @@
 # USAGE
-# py main.py --video video.avi
+# py main.py --video video.mp4
 
 # import the necessary packages
 from datetime import datetime
@@ -88,7 +88,7 @@ def startStream(args):
             # if we are supposed to be writing a video to disk, initialize
             # the writer
         if args["output"] is not None and writer is None:
-            fourcc = cv2.VideoWriter_fourcc(*"MJPG")
+            fourcc = cv2.VideoWriter_fourcc(*'avc1')
             writer = cv2.VideoWriter(args["output"], fourcc, 60,
                 (frame.shape[1], frame.shape[0]), True)
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
@@ -157,14 +157,15 @@ def startStream(args):
 
         try:
             if anomallyFrameTracker[0] == 0 and len(accumulativeFrameQueue) >= 400:
-                anomallyfourcc = cv2.VideoWriter_fourcc(*"MJPG")
-                current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
-                anomallyWriter = cv2.VideoWriter('/home/vulcan/Documents/Thermal/AnomallyVideo/' + current + ".avi", anomallyfourcc , 60,
+                anomallyfourcc = cv2.VideoWriter_fourcc(*'avc1')
+                current = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                anomallyWriter = cv2.VideoWriter('/home/vulcan/Documents/Thermal/AnomallyVideo/' + current + ".mp4", anomallyfourcc , 60,
                     (frame.shape[1], frame.shape[0]), True)
                 for pic in  accumulativeFrameQueue:
                     anomallyWriter.write(pic)
                 anomallyWriter.release()
                 accumulativeFrameQueue = []
+                print(current)
                 updateAnomalousBehaviour(current)
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
@@ -184,9 +185,9 @@ def startStream(args):
         writer.release()
     if len(accumulativeFrameQueue) != 0:
         try:
-            anomallyfourcc = cv2.VideoWriter_fourcc(*"MJPG")
-            current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
-            anomallyWriter = cv2.VideoWriter( '/home/vulcan/Documents/Thermal/AnomallyVideos/' + current + ".avi", anomallyfourcc , 60,
+            anomallyfourcc = cv2.VideoWriter_fourcc(*'avc1')
+            current = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            anomallyWriter = cv2.VideoWriter( '/home/vulcan/Documents/Thermal/AnomallyVideos/' + current + ".mp4", anomallyfourcc , 60,
                 (frame.shape[1], frame.shape[0]), True)
             for pic in  accumulativeFrameQueue:
                 anomallyWriter.write(pic)

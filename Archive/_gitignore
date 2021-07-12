@@ -11,7 +11,7 @@
 *.mp4
 *.mov
 *.MOV
-*.avi
+*.mp4
 *.data
 *.json
 
@@ -196,7 +196,7 @@ Temporary Items
 .idea/dictionaries
 .html  # Bokeh Plots
 .pg  # TensorFlow Frozen Graphs
-.avi # videos
+.mp4 # videos
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/

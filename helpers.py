@@ -1,4 +1,5 @@
 import json
+from imutils import video
 import requests
 import logging
 from datetime import datetime
@@ -68,24 +69,23 @@ def updateAnomalousBehaviour(videoName):
 
     
     try:
-        #Upload fall detection
+        #Upload anomalous behaviour detection
         #status_id: 1-Aggression, 2-Fall, 3-Anomalous Behaviour, 4-Erratic Behaviour
         #Detected by device id: 2-Camera, 3-Sensor
         
         url = "https://smartcaire-dev.azurewebsites.net/api/v2.0/incident"
-        payload={'incident_type_id': '2',
-        'incident_dt': '2021-07-09 10:25:14.457',
+        payload={'incident_type_id': '3',
+        'incident_dt': videoName, 
         'status_id': '1',
         'detected_by_device_id': '3', #2 is camera, 3 is sensor
         'sensor_id': '3', #based on sensor in the dashboard
         'media_type': 'video',
-        'location': 'Workplace'}
+        'location': 'Dormitory'}
         files=[
-            ('file',(videoName + '.avi',open('/home/vulcan/Documents/Thermal/AnomallyVideo/' + videoName + '.avi','rb'),'application/octet-stream'))
+            ('file',(videoName + '.mp4',open('/home/vulcan/Documents/Thermal/AnomallyVideo/' + videoName + '.mp4','rb'),'application/octet-stream'))
         ]
         headers = {
             'Authorization': 'Bearer {}'.format(accessToken),
-            'Content-Type': 'application/json',
         }
 
         response = requests.request("POST", url, headers=headers, data=payload, files=files)
@@ -112,15 +112,16 @@ def updateBedTime(bedTime):
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.info(current + " Getting Auth Token Success")
     except:
-        current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
+        
         logging.error(current + " Getting Auth Token Failure")
     
     try:
+        current = datetime.now().strftime('%Y-%m-%d')
         # Save the time spend in bed
         url = "https://smartcaire-dev.azurewebsites.net/api/v2.0/user/time-in-bed"
         payload = json.dumps({
             "user_id": "d429f794-c889-4fc2-8439-00abd9bc5f3c",
-            "datetime": "2021-07-09",
+            "datetime": current,
             "time_spent": bedTime  # hours/minutes?
         })
             

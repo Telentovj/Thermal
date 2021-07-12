@@ -1,5 +1,5 @@
 # USAGE
-# py main.py --video video.avi
+# py main.py --video video.mp4
 
 # import the necessary packages
 from imutils.video import FPS
