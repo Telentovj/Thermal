@@ -5,75 +5,13 @@
 from imutils.video import FPS
 import argparse
 import cv2
+from helpers import *
 
-    
-
-
-
-def getColours(frame, bedbbox):
-    buffer = []
-    for i in range(len(bedbbox)):
-        buffer.append([])
-    
-    # j is x , k is y
-    # frmae[y][x]
-    for i in range(len(bedbbox)):
-        count = 0
-        for j in range(bedbbox[i][0], bedbbox[i][2]):
-            for k in range(bedbbox[i][1], bedbbox[i][3]):
-                count+=1
-                buffer[i].append(frame[k][j])
-        
-    return buffer
-
-
-
-
-
-def checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime):
-    
-    for i in range(len(bedbboxColours)):
-        detectionCount = 0
-        countNeeded = percentageThreshold*len(bedbboxColours[i])
-        anomallyCountNeeded = percentageAnomallyThreshold*len(bedbboxColours[i])
-        for j in range(len(bedbboxColours[i])):
-            if bedbboxColours[i][j] > colourThreshold:
-                detectionCount += 1
-        if(detectionCount > countNeeded):
-            bedCounter[i] = 1
-            bedTime[i] += 0.1136
-            if(detectionCount > anomallyCountNeeded):
-                bedAnomallyCounter[i] = 1
-            else:
-                bedAnomallyCounter[i] = 0
-        else:
-            bedAnomallyCounter[i] = 0
-            bedCounter[i] = 0
-        
-import requests
-
-def updateApi(bedTime):
-            url = "http://work-smart-dev.azurewebsites.net/api/v2.0/auth/login"
-            payload="{\n    \"email\" : \"camera-vulcan@vulcan-ai.com\",\n    \"password\":\"VisionAI@052020\"\n}"
-            headers = {'Content-Type': 'application/json'}
-
-            response = requests.request("POST", url, headers=headers, data=payload)
-            accessToken = response.json().get('accessToken')
-
-            url = "http://work-smart-dev.azurewebsites.net/api/v2.0/incident"
-            payload = {}
-            files = [bedTime]
-            headers = {'Authorization': 'Bearer {}'.format(accessToken)}
-            response = requests.request("POST", url, headers=headers, data=payload, files=files)
-        
-        
- 
-        
 def startStream(args):
 
+    frameQueue = []
     # initialize list of beds, each bed will be a series of bounding boxes.
     # xmin ymin xmax ymax
-    # 2 & 3 shift left by 5 pxiels
     bedbbox=[[50,90,75,118]]
     # bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
     #0-255
@@ -113,10 +51,6 @@ def startStream(args):
             
             frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
  
-
-            
-            # print(frame.shape)
-            # print(np.transpose(image_data[0]).shape)
             # if we are supposed to be writing a video to disk, initialize
             # the writer
         if args["output"] is not None and writer is None:
@@ -124,9 +58,7 @@ def startStream(args):
             writer = cv2.VideoWriter(args["output"], fourcc, 10,
                 (frame.shape[1], frame.shape[0]), True)
 
-        
-        # We refresh every 15 frames so that we can redetected the objects, then we track the detected objects
-        # Hence we will be having 60 frame cycles
+
         for i in range(len(bedbbox)):
             if bedAnomallyCounter[i] > 0:
                 cv2.rectangle(frame, (bedbbox[i][0], bedbbox[i][1]), (bedbbox[i][2], bedbbox[i][3]),(0,0,255), 2)   
@@ -153,6 +85,16 @@ def startStream(args):
         # update the FPS counter
         fps.update()
 
+        if len(frameQueue) > 200:
+            frameQueue.pop()
+        else:
+            frameQueue.append(frame)
+        
+        if bedAnomallyCounter[i] > 0:
+            print('Save Video')
+            #updateAnomalousBehaviour(video)
+        #Save video code
+
     # stop the timer and display FPS information
     fps.stop()
     print("[INFO] elapsed time: {:.2f}".format(fps.elapsed()))
@@ -161,7 +103,7 @@ def startStream(args):
     # check to see if we need to release the video writer pointer
     if writer is not None:
         writer.release()
-    # updateApi(bedTime)
+    # updateBedTime(bedTime)
     # do a bit of cleanup
     cv2.destroyAllWindows()
     vs.release()
