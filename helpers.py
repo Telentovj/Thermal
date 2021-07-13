@@ -98,7 +98,7 @@ def updateAnomalousBehaviour(videoName):
         logging.error(current + " Anomalous Detection Video Upload Failed")
 
 
-def updateBedTime(bedTime):
+def updateBedTime(bedTime,bedbboxID):
     try:
         url = "https://smartcaire-dev.azurewebsites.net/api/v2.0/auth/login"
         payload = json.dumps({
@@ -116,22 +116,31 @@ def updateBedTime(bedTime):
         logging.error(current + " Getting Auth Token Failure")
     
     try:
-        current = datetime.now().strftime('%Y-%m-%d')
-        # Save the time spend in bed
-        url = "https://smartcaire-dev.azurewebsites.net/api/v2.0/user/time-in-bed"
-        payload = json.dumps({
-            "user_id": "d429f794-c889-4fc2-8439-00abd9bc5f3c",
-            "datetime": current,
-            "time_spent": bedTime  # hours/minutes?
-        })
-            
-        headers = {'Authorization': 'Bearer {}'.format(accessToken),
-                    'Content-Type': 'application/json',
-                }
-        response = requests.request("POST", url, headers=headers, data=payload)
-        print(response.text)
-        current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
-        logging.info(current + " BedTime Upload Completed")
+        # url = "https://smartcaire-dev.azurewebsites.net/api/v2.0/user/time-in-bed"
+        # payload={"user_id": "D429F794-C889-4FC2-8439-00ABD9BC5F3C"}
+        # headers = {
+        # 'Authorization': 'Bearer {}'.format(accessToken)
+        # }
+        # response = requests.request("GET", url, headers=headers, data=payload)
+        # print(response.text)
+        
+        for i in range(len(bedTime)):
+            current = datetime.now().strftime('%Y-%m-%d')
+            # Save the time spend in bed
+            url = "https://smartcaire-dev.azurewebsites.net/api/v2.0/user/time-in-bed"
+            payload = json.dumps({
+                "user_id": bedbboxID[i],
+                "datetime": current,
+                "time_spent": bedTime[i]  # hours/minutes?
+            })
+                
+            headers = {'Authorization': 'Bearer {}'.format(accessToken),
+                        'Content-Type': 'application/json',
+                    }
+            response = requests.request("POST", url, headers=headers, data=payload)
+            print(response.text)
+            current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
+            logging.info(current + " BedTime Upload Completed")
     except:
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.error(current + " BedTime Upload Failed")
