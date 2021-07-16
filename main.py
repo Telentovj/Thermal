@@ -9,12 +9,6 @@ import cv2
 import logging
 from helpers import *
 
-# import logging
-# logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
-# logging.debug('This message should go to the log file')
-# logging.info('So should this')
-# logging.warning('And this, too')
-# logging.error('And non-ASCII stuff, too, like Øresund and Malmö')
 
 def startStream(args):
     #Logger
@@ -28,6 +22,7 @@ def startStream(args):
         anomallyFrameTracker = [0]
         accumulativeFrameQueue = []
         movingFrameQueue = []
+        
 
 
         # initialize list of beds, each bed will be a series of bounding boxes.
@@ -35,6 +30,7 @@ def startStream(args):
         #bedbbox=[[50,90,75,118]]
         bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
         bedbboxID = ["D429F794-C889-4FC2-8439-00ABD9BC5F3C","24CB2FD9-B15C-49D7-9C8F-0DF7F3DB14D9","74922366-AA42-437F-9E6E-EFBEDF9700B6"]
+        anomallyHistoryTracker = [0]*len(bedbbox)
         #0-255
         colourThreshold = args['colour']
         #Percentage of bed bbox needed to be covered by pixels with colour > 130 to be considered detection
@@ -76,6 +72,11 @@ def startStream(args):
             logging.info(current + " Video ended")
             break
         else:
+            # Remove history, roughly ten minutes to remove completely
+            for i in range(len(anomallyHistoryTracker)):
+                if anomallyHistoryTracker[i] > 0:
+                    anomallyHistoryTracker[i] -= 1
+
             # resize the frame for faster processing and then convert the
             frame = cv2.resize(frame, (128,128))
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -135,18 +136,25 @@ def startStream(args):
 
 
         # Add frame requirements to track anomally
-        flag = False
+        bedAnomallyDetectedAt = [0] * len(bedbbox)
         for i in range(len(bedbbox)):
             if bedAnomallyCounter[i] > 0:
-                flag = True
+                bedAnomallyDetectedAt[i] = 1
                 current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
                 logging.info(current + " Anomally Detected, starting call for more frames")
+        
+        # print(bedAnomallyDetectedAt)
+        # print(anomallyHistoryTracker)
+        
+        for i in range(len(bedAnomallyDetectedAt)):
+            if bedAnomallyDetectedAt[i] == 1:
 
-        if flag:
-            if anomallyFrameTracker[0] == 0:
-                for frame in movingFrameQueue:
-                    accumulativeFrameQueue.append(frame)
-            anomallyFrameTracker[0] = 50
+                if anomallyFrameTracker[0] == 0 and anomallyHistoryTracker[i] == 0:
+                    anomallyHistoryTracker[i] = args['timeSuppression'] #Roughly 10 minutes between tracks
+                    for frame in movingFrameQueue:
+                        accumulativeFrameQueue.append(frame)
+                    anomallyFrameTracker[0] = 50
+                
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " anomallyFrameTracker resetted to 200")
 
@@ -159,14 +167,14 @@ def startStream(args):
             if anomallyFrameTracker[0] == 0 and len(accumulativeFrameQueue) >= 51:
                 anomallyfourcc = cv2.VideoWriter_fourcc(*'avc1')
                 current = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                anomallyWriter = cv2.VideoWriter('/home/vulcan/Documents/Thermal/AnomallyVideo/' + current + ".mp4", anomallyfourcc , 30,
+                anomallyWriter = cv2.VideoWriter('/home/vulcan/Documents/Thermal/AnomallyVideo/' + current + ".mp4", anomallyfourcc , 10,
                     (128,128), True)
                 for pic in  accumulativeFrameQueue:
                     anomallyWriter.write(pic)
                 anomallyWriter.release()
                 accumulativeFrameQueue = []
                 print(current)
-                updateAnomalousBehaviour(current)
+                # updateAnomalousBehaviour(current)
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " Anomally Video Output unsuccessful")
@@ -187,18 +195,18 @@ def startStream(args):
         try:
             anomallyfourcc = cv2.VideoWriter_fourcc(*'avc1')
             current = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            anomallyWriter = cv2.VideoWriter( '/home/vulcan/Documents/Thermal/AnomallyVideo/' + current + ".mp4", anomallyfourcc , 30,
+            anomallyWriter = cv2.VideoWriter( '/home/vulcan/Documents/Thermal/AnomallyVideo/' + current + ".mp4", anomallyfourcc , 10,
                 (128,128), True)
             for pic in  accumulativeFrameQueue:
                 anomallyWriter.write(pic)
             anomallyWriter.release()
             accumulativeFrameQueue = []
-            updateAnomalousBehaviour(current)
+            # updateAnomalousBehaviour(current)
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " Anomally Video Output unsuccessful")
     
-    updateBedTime(bedTime,bedbboxID)
+    # updateBedTime(bedTime,bedbboxID)
     # do a bit of cleanup
     cv2.destroyAllWindows()
     vs.release()
@@ -219,6 +227,8 @@ def driver():
         help="percentage of bed bb required to consider normal detection")
     ap.add_argument("-a", "--anomally", default = 0.5,
         help="percentage of bed bb required to consider anomalous detection")
+    ap.add_argument("-t", "--timeSuppression", default = 31860,
+        help="Time between anomalous detections for single bed, default at 1 hr, 31860 frames")
     args = vars(ap.parse_args())
     # Start streaming
     startStream(args)
