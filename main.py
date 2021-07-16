@@ -27,8 +27,8 @@ def startStream(args):
 
         # initialize list of beds, each bed will be a series of bounding boxes.
         # xmin ymin xmax ymax
-        #bedbbox=[[50,90,75,118]]
-        bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
+        bedbbox=[[30,45,80,65]]
+        #bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
         bedbboxID = ["D429F794-C889-4FC2-8439-00ABD9BC5F3C","24CB2FD9-B15C-49D7-9C8F-0DF7F3DB14D9","74922366-AA42-437F-9E6E-EFBEDF9700B6"]
         anomallyHistoryTracker = [0]*len(bedbbox)
         #0-255
@@ -79,11 +79,12 @@ def startStream(args):
 
             # resize the frame for faster processing and then convert the
             frame = cv2.resize(frame, (128,128))
+            colourFrame = frame
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             bedbboxColours = getColours(frame,bedbbox)
             checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime)
             
-            frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
+            # frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " Frame manipulations completed")
             # if we are supposed to be writing a video to disk, initialize
@@ -97,21 +98,21 @@ def startStream(args):
 
         for i in range(len(bedbbox)):
             if bedAnomallyCounter[i] > 0:
-                cv2.rectangle(frame, (bedbbox[i][0], bedbbox[i][1]), (bedbbox[i][2], bedbbox[i][3]),(0,0,255), 2)   
+                cv2.rectangle(colourFrame, (bedbbox[i][0], bedbbox[i][1]), (bedbbox[i][2], bedbbox[i][3]),(0,0,255), 2)   
             else:
-                cv2.rectangle(frame, (bedbbox[i][0], bedbbox[i][1]), (bedbbox[i][2], bedbbox[i][3]),(200,120,200), 2)   
+                cv2.rectangle(colourFrame, (bedbbox[i][0], bedbbox[i][1]), (bedbbox[i][2], bedbbox[i][3]),(255,255,255), 2)   
             if bedAnomallyCounter[i] > 0:
-                cv2.putText(frame,  str(round(bedTime[i],1)), (bedbbox[i][0], bedbbox[i][1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (0,0,255), 1) 
+                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (bedbbox[i][0], bedbbox[i][1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (0,0,255), 1) 
             else:
-                cv2.putText(frame,  str(round(bedTime[i],1)), (bedbbox[i][0], bedbbox[i][1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (200,120,200), 1) 
+                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (bedbbox[i][0], bedbbox[i][1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (255,255,255), 1) 
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.info(current + " Bounding Box Drawn")
 
         if writer is not None:
-            writer.write(frame)
+            writer.write(colourFrame)
         
         # show the output frame
-        cv2.imshow("Frame", frame)
+        cv2.imshow("Frame", cv2.resize(colourFrame,(640,640)))
         totalFrames += 1
         key = cv2.waitKey(1) & 0xFF
 
@@ -122,14 +123,13 @@ def startStream(args):
         # update the FPS counter
         fps.update()
 
-
         # Call for frame requirements if there is an anomally
         if len(movingFrameQueue) > 50:
             movingFrameQueue.pop(0)
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " MovingFrameQueue Popped")
         else:
-            movingFrameQueue.append(frame)
+            movingFrameQueue.append(colourFrame)
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " MovingFrameQueue Appended")
         
@@ -160,7 +160,7 @@ def startStream(args):
 
         # If we find a call for frame requirements, we append the frame then reduce the frame requirements incrementally
         if anomallyFrameTracker[0] != 0:
-            accumulativeFrameQueue.append(frame)
+            accumulativeFrameQueue.append(colourFrame)
             anomallyFrameTracker[0] -= 1
         print(anomallyFrameTracker[0])
         try:
@@ -174,7 +174,7 @@ def startStream(args):
                 anomallyWriter.release()
                 accumulativeFrameQueue = []
                 print(current)
-                # updateAnomalousBehaviour(current)
+                updateAnomalousBehaviour(current)
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " Anomally Video Output unsuccessful")
@@ -201,12 +201,12 @@ def startStream(args):
                 anomallyWriter.write(pic)
             anomallyWriter.release()
             accumulativeFrameQueue = []
-            # updateAnomalousBehaviour(current)
+            updateAnomalousBehaviour(current)
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " Anomally Video Output unsuccessful")
     
-    # updateBedTime(bedTime,bedbboxID)
+    updateBedTime(bedTime,bedbboxID)
     # do a bit of cleanup
     cv2.destroyAllWindows()
     vs.release()
@@ -221,11 +221,11 @@ def driver():
         help="path to input video file")
     ap.add_argument("-o", "--output", type=str,
         help="path to optional output video file")
-    ap.add_argument("-c", "--colour", default = 130, 
+    ap.add_argument("-c", "--colour", default = 90, 
         help="Value from 0-255 to represent colour")
-    ap.add_argument("-n", "--percentage", default = 0.3, 
+    ap.add_argument("-n", "--percentage", default = 0.35, 
         help="percentage of bed bb required to consider normal detection")
-    ap.add_argument("-a", "--anomally", default = 0.5,
+    ap.add_argument("-a", "--anomally", default = 0.50,
         help="percentage of bed bb required to consider anomalous detection")
     ap.add_argument("-t", "--timeSuppression", default = 31860,
         help="Time between anomalous detections for single bed, default at 1 hr, 31860 frames")
