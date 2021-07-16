@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # USAGE
 # py main.py --video video.mp4
 
@@ -8,6 +9,7 @@ import argparse
 import cv2
 import logging
 from helpers import *
+import time
 
 
 def startStream(args):
@@ -61,9 +63,10 @@ def startStream(args):
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.info(current + " Parameter Generation Failed")
 
-
+    timeout = 60*60*10
+    timeout_start = time.time()
     # loop over frames from the video file stream
-    while True:
+    while time.time() < timeout_start+timeout:
         # grab the next frame from the video file
         (grabbed, frame) = vs.read()
         # check to see if we have reached the end of the video file
