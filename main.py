@@ -236,7 +236,7 @@ def driver():
         help="percentage of bed bb required to consider anomalous detection")
     ap.add_argument("-t", "--timeSuppression", default = 31860,
         help="Time between anomalous detections for single bed, default at 1 hr, 31860 frames")
-    ap.add_argument("-tt", "--minTimeDetect", default = 10,
+    ap.add_argument("-tt", "--minTimeDetect", default = 30,
         help="Minimum time required for something to be considered a detection")
     args = vars(ap.parse_args())
     # Start streaming
