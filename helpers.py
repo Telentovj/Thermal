@@ -23,7 +23,7 @@ def getColours(frame, bedbbox):
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.error(current + " Colour Conversion Failed")
 
-def checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime):
+def checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime,consecutiveDetectionCount,consecutiveAnomallyDetectionCount,minTime):
     try:
         for i in range(len(bedbboxColours)):
             detectionCount = 0
@@ -34,16 +34,23 @@ def checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,perc
                     detectionCount += 1
             if(detectionCount > countNeeded):
                 bedCounter[i] = 1
-                bedTime[i] += 1/8.8
+                consecutiveDetectionCount += 1
+                if consecutiveDetectionCount > minTime:
+                    bedTime[i] += 1/8.8
                 if(detectionCount > anomallyCountNeeded):
-                    bedAnomallyCounter[i] = 1
+                    consecutiveAnomallyDetectionCount += 1
+                    if consecutiveAnomallyDetectionCount > minTime:
+                        bedAnomallyCounter[i] = 1
                 else:
+                    consecutiveAnomallyDetectionCount = 0 
                     bedAnomallyCounter[i] = 0
             else:
+                consecutiveDetectionCount = 0
                 bedAnomallyCounter[i] = 0
                 bedCounter[i] = 0
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.info(current + " Sleep Check Completed")
+        return consecutiveDetectionCount,consecutiveAnomallyDetectionCount
     except:
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.error(current + " Sleep Check Failed")

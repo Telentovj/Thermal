@@ -29,26 +29,30 @@ def startStream(args):
 
         # initialize list of beds, each bed will be a series of bounding boxes.
         # xmin ymin xmax ymax
-        bedbbox=[[30,45,80,65]]
-        #bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
+        bedbbox=[[45,0,78,45]]
+        # bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
         bedbboxID = ["D429F794-C889-4FC2-8439-00ABD9BC5F3C","24CB2FD9-B15C-49D7-9C8F-0DF7F3DB14D9","74922366-AA42-437F-9E6E-EFBEDF9700B6"]
         anomallyHistoryTracker = [0]*len(bedbbox)
-        #0-255
+        # 0-255
         colourThreshold = args['colour']
-        #Percentage of bed bbox needed to be covered by pixels with colour > 130 to be considered detection
+        # Percentage of bed bbox needed to be covered by pixels with colour > 130 to be considered detection
         percentageThreshold = args['percentage']
-        #Same as above but stricter for anomally detection
+        # Same as above but stricter for anomally detection
         percentageAnomallyThreshold = args['anomally']
-        #Initialize the counter that will keep track of number of people on each bed.
+        # Initialize the counter that will keep track of number of people on each bed.
         bedCounter = [0]*len(bedbbox)
-        #Initialize the counter that will keep track of number of anomalous behaviour on each bed.
+        # Initialize the counter that will keep track of number of anomalous behaviour on each bed.
         bedAnomallyCounter = [0]*len(bedbbox)
-        #Initialize the counter that will keep track of time spend on each bed.
+        # Initialize the counter that will keep track of time spend on each bed.
         bedTime = [0]*len(bedbbox)
-        
-        # to track the frames
+        # Minimum time required for something to be considered a detection
+        minTime = args['minTimeDetect']
+        # To track the frames
         totalFrames = 0
-
+        # Counter to track consecutive detections
+        consecutiveDetectionCount = 0
+        # Counter to track consecutive anomalous detections
+        consecutiveAnomallyDetectionCount = 0
 
         # initialize the video stream and output video writer
         print("[INFO] starting video stream...")
@@ -85,7 +89,7 @@ def startStream(args):
             colourFrame = frame
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             bedbboxColours = getColours(frame,bedbbox)
-            checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime)
+            consecutiveDetectionCount,consecutiveAnomallyDetectionCount = checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime,consecutiveDetectionCount,consecutiveAnomallyDetectionCount,minTime)
             
             # frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
@@ -105,9 +109,9 @@ def startStream(args):
             else:
                 cv2.rectangle(colourFrame, (bedbbox[i][0], bedbbox[i][1]), (bedbbox[i][2], bedbbox[i][3]),(255,255,255), 2)   
             if bedAnomallyCounter[i] > 0:
-                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (bedbbox[i][0], bedbbox[i][1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (0,0,255), 1) 
+                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (int(bedbbox[i][0]+(bedbbox[i][2]-bedbbox[i][0])/2), int(bedbbox[i][1]+(bedbbox[i][3]-bedbbox[i][1])/2)), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (0,0,255), 1) 
             else:
-                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (bedbbox[i][0], bedbbox[i][1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (255,255,255), 1) 
+                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (int(bedbbox[i][0]+(bedbbox[i][2]-bedbbox[i][0])/2), int(bedbbox[i][1]+(bedbbox[i][3]-bedbbox[i][1])/2)), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (255,255,255), 1) 
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.info(current + " Bounding Box Drawn")
 
@@ -224,14 +228,16 @@ def driver():
         help="path to input video file")
     ap.add_argument("-o", "--output", type=str,
         help="path to optional output video file")
-    ap.add_argument("-c", "--colour", default = 90, 
+    ap.add_argument("-c", "--colour", default = 130, 
         help="Value from 0-255 to represent colour")
-    ap.add_argument("-n", "--percentage", default = 0.35, 
+    ap.add_argument("-n", "--percentage", default = 0.20, 
         help="percentage of bed bb required to consider normal detection")
     ap.add_argument("-a", "--anomally", default = 0.50,
         help="percentage of bed bb required to consider anomalous detection")
     ap.add_argument("-t", "--timeSuppression", default = 31860,
         help="Time between anomalous detections for single bed, default at 1 hr, 31860 frames")
+    ap.add_argument("-tt", "--minTimeDetect", default = 10,
+        help="Minimum time required for something to be considered a detection")
     args = vars(ap.parse_args())
     # Start streaming
     startStream(args)
