@@ -1,0 +1,406 @@
+INFO:root:2021-07-27-10--32--21 Parameter Generation Success
+INFO:root:2021-07-27-10--32--25 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--25 Sleep Check Completed
+INFO:root:2021-07-27-10--32--25 Frame manipulations completed
+INFO:root:2021-07-27-10--32--25 Writer Initialized
+INFO:root:2021-07-27-10--32--25 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--26 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--26 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--26 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--26 Sleep Check Completed
+INFO:root:2021-07-27-10--32--26 Frame manipulations completed
+INFO:root:2021-07-27-10--32--26 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--26 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--26 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--26 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--26 Sleep Check Completed
+INFO:root:2021-07-27-10--32--26 Frame manipulations completed
+INFO:root:2021-07-27-10--32--26 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--26 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--26 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--27 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--27 Sleep Check Completed
+INFO:root:2021-07-27-10--32--27 Frame manipulations completed
+INFO:root:2021-07-27-10--32--27 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--27 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--27 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--27 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--27 Sleep Check Completed
+INFO:root:2021-07-27-10--32--27 Frame manipulations completed
+INFO:root:2021-07-27-10--32--27 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--27 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--27 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--27 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--27 Sleep Check Completed
+INFO:root:2021-07-27-10--32--27 Frame manipulations completed
+INFO:root:2021-07-27-10--32--27 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--27 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--27 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--27 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--27 Sleep Check Completed
+INFO:root:2021-07-27-10--32--27 Frame manipulations completed
+INFO:root:2021-07-27-10--32--27 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--28 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--28 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--28 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--28 Sleep Check Completed
+INFO:root:2021-07-27-10--32--28 Frame manipulations completed
+INFO:root:2021-07-27-10--32--28 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--28 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--28 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--28 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--28 Sleep Check Completed
+INFO:root:2021-07-27-10--32--28 Frame manipulations completed
+INFO:root:2021-07-27-10--32--28 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--29 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--29 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--29 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--29 Sleep Check Completed
+INFO:root:2021-07-27-10--32--29 Frame manipulations completed
+INFO:root:2021-07-27-10--32--29 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--29 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--29 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--29 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--29 Sleep Check Completed
+INFO:root:2021-07-27-10--32--29 Frame manipulations completed
+INFO:root:2021-07-27-10--32--29 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--30 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--30 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--30 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--30 Sleep Check Completed
+INFO:root:2021-07-27-10--32--30 Frame manipulations completed
+INFO:root:2021-07-27-10--32--30 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--31 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--31 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--31 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--31 Sleep Check Completed
+INFO:root:2021-07-27-10--32--31 Frame manipulations completed
+INFO:root:2021-07-27-10--32--31 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--31 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--31 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--31 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--31 Sleep Check Completed
+INFO:root:2021-07-27-10--32--31 Frame manipulations completed
+INFO:root:2021-07-27-10--32--31 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--31 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--31 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--31 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--31 Sleep Check Completed
+INFO:root:2021-07-27-10--32--31 Frame manipulations completed
+INFO:root:2021-07-27-10--32--31 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--32 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--32 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--32 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--32 Sleep Check Completed
+INFO:root:2021-07-27-10--32--32 Frame manipulations completed
+INFO:root:2021-07-27-10--32--32 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--32 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--32 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--32 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--32 Sleep Check Completed
+INFO:root:2021-07-27-10--32--32 Frame manipulations completed
+INFO:root:2021-07-27-10--32--32 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--33 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--33 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--33 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--33 Sleep Check Completed
+INFO:root:2021-07-27-10--32--33 Frame manipulations completed
+INFO:root:2021-07-27-10--32--33 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--33 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--33 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--33 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--33 Sleep Check Completed
+INFO:root:2021-07-27-10--32--33 Frame manipulations completed
+INFO:root:2021-07-27-10--32--33 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--34 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--34 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--34 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--34 Sleep Check Completed
+INFO:root:2021-07-27-10--32--34 Frame manipulations completed
+INFO:root:2021-07-27-10--32--34 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--35 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--35 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--35 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--35 Sleep Check Completed
+INFO:root:2021-07-27-10--32--35 Frame manipulations completed
+INFO:root:2021-07-27-10--32--35 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--35 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--35 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--35 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--35 Sleep Check Completed
+INFO:root:2021-07-27-10--32--35 Frame manipulations completed
+INFO:root:2021-07-27-10--32--35 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--35 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--35 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--35 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--35 Sleep Check Completed
+INFO:root:2021-07-27-10--32--35 Frame manipulations completed
+INFO:root:2021-07-27-10--32--35 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--36 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--36 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--36 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--36 Sleep Check Completed
+INFO:root:2021-07-27-10--32--36 Frame manipulations completed
+INFO:root:2021-07-27-10--32--36 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--36 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--36 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--36 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--36 Sleep Check Completed
+INFO:root:2021-07-27-10--32--36 Frame manipulations completed
+INFO:root:2021-07-27-10--32--36 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--37 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--37 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--37 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--37 Sleep Check Completed
+INFO:root:2021-07-27-10--32--37 Frame manipulations completed
+INFO:root:2021-07-27-10--32--37 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--38 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--38 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--38 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--38 Sleep Check Completed
+INFO:root:2021-07-27-10--32--38 Frame manipulations completed
+INFO:root:2021-07-27-10--32--38 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--38 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--38 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--38 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--38 Sleep Check Completed
+INFO:root:2021-07-27-10--32--38 Frame manipulations completed
+INFO:root:2021-07-27-10--32--38 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--39 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--39 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--39 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--39 Sleep Check Completed
+INFO:root:2021-07-27-10--32--39 Frame manipulations completed
+INFO:root:2021-07-27-10--32--39 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--39 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--39 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--39 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--39 Sleep Check Completed
+INFO:root:2021-07-27-10--32--39 Frame manipulations completed
+INFO:root:2021-07-27-10--32--39 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--40 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--40 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--40 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--40 Sleep Check Completed
+INFO:root:2021-07-27-10--32--40 Frame manipulations completed
+INFO:root:2021-07-27-10--32--40 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--40 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--40 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--40 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--40 Sleep Check Completed
+INFO:root:2021-07-27-10--32--40 Frame manipulations completed
+INFO:root:2021-07-27-10--32--40 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--41 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--41 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--41 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--41 Sleep Check Completed
+INFO:root:2021-07-27-10--32--41 Frame manipulations completed
+INFO:root:2021-07-27-10--32--41 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--42 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--42 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--42 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--42 Sleep Check Completed
+INFO:root:2021-07-27-10--32--42 Frame manipulations completed
+INFO:root:2021-07-27-10--32--42 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--42 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--42 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--42 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--42 Sleep Check Completed
+INFO:root:2021-07-27-10--32--42 Frame manipulations completed
+INFO:root:2021-07-27-10--32--42 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--43 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--43 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--43 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--43 Sleep Check Completed
+INFO:root:2021-07-27-10--32--43 Frame manipulations completed
+INFO:root:2021-07-27-10--32--43 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--44 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--44 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--44 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--44 Sleep Check Completed
+INFO:root:2021-07-27-10--32--44 Frame manipulations completed
+INFO:root:2021-07-27-10--32--44 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--45 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--45 Sleep Check Completed
+INFO:root:2021-07-27-10--32--45 Frame manipulations completed
+INFO:root:2021-07-27-10--32--45 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--45 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--45 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--52 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--52 Sleep Check Completed
+INFO:root:2021-07-27-10--32--52 Frame manipulations completed
+INFO:root:2021-07-27-10--32--52 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--52 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--52 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--52 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--52 Sleep Check Completed
+INFO:root:2021-07-27-10--32--52 Frame manipulations completed
+INFO:root:2021-07-27-10--32--52 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--52 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--52 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--52 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--52 Sleep Check Completed
+INFO:root:2021-07-27-10--32--52 Frame manipulations completed
+INFO:root:2021-07-27-10--32--52 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--52 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--52 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--53 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--53 Sleep Check Completed
+INFO:root:2021-07-27-10--32--53 Frame manipulations completed
+INFO:root:2021-07-27-10--32--53 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--53 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--53 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--54 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--54 Sleep Check Completed
+INFO:root:2021-07-27-10--32--54 Frame manipulations completed
+INFO:root:2021-07-27-10--32--54 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--54 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--54 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--54 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--54 Sleep Check Completed
+INFO:root:2021-07-27-10--32--54 Frame manipulations completed
+INFO:root:2021-07-27-10--32--54 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--54 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--54 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--54 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--54 Sleep Check Completed
+INFO:root:2021-07-27-10--32--54 Frame manipulations completed
+INFO:root:2021-07-27-10--32--54 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--54 MovingFrameQueue Appended
+INFO:root:2021-07-27-10--32--54 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--54 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--54 Sleep Check Completed
+INFO:root:2021-07-27-10--32--54 Frame manipulations completed
+INFO:root:2021-07-27-10--32--54 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--54 MovingFrameQueue Popped
+INFO:root:2021-07-27-10--32--54 anomallyFrameTracker resetted to 200
+INFO:root:2021-07-27-10--32--54 Colour Conversion Completed
+INFO:root:2021-07-27-10--32--54 Sleep Check Completed
+INFO:root:2021-07-27-10--32--54 Frame manipulations completed
+INFO:root:2021-07-27-10--32--54 Bounding Box Drawn
+INFO:root:2021-07-27-10--32--55[INFO] elapsed time: 33.87
+INFO:root:2021-07-27-10--32--55[INFO] approx. FPS: 1.95
+INFO:root:2021-07-27-10--32--55 Getting Auth Token Success
+INFO:root:2021-07-27-10--32--55 BedTime Upload Completed

@@ -9,14 +9,11 @@ import argparse
 import dlib
 import cv2
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import tensorflow as tf
-from tensorflow.python.saved_model import tag_constants
-from detectFrozen import detect
 from models import *  # set ONNX_EXPORT in models.py
 from utils.datasets import *
 from utils.utils import *
 import time 
+from detectFrozen import detect
 
 def start_tracker(box, label, rgb, inputQueue, outputQueue, refreshRate):
     frame = 1

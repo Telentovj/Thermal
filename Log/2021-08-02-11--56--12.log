@@ -1,0 +1,953 @@
+INFO:root:2021-08-02-11--56--12 Parameter Generation Success
+INFO:root:2021-08-02-11--56--13 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--13 Sleep Check Completed
+INFO:root:2021-08-02-11--56--13 Frame manipulations completed
+INFO:root:2021-08-02-11--56--13 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--19 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--19 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--19 anomallyFrameTracker resetted to 50
+INFO:root:2021-08-02-11--56--19 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--19 Sleep Check Completed
+INFO:root:2021-08-02-11--56--19 Frame manipulations completed
+INFO:root:2021-08-02-11--56--19 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--19 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--19 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--19 Sleep Check Completed
+INFO:root:2021-08-02-11--56--19 Frame manipulations completed
+INFO:root:2021-08-02-11--56--19 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--19 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--19 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--19 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--19 Sleep Check Completed
+INFO:root:2021-08-02-11--56--19 Frame manipulations completed
+INFO:root:2021-08-02-11--56--19 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--19 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--20 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--20 Sleep Check Completed
+INFO:root:2021-08-02-11--56--20 Frame manipulations completed
+INFO:root:2021-08-02-11--56--20 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--20 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--20 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--20 Sleep Check Completed
+INFO:root:2021-08-02-11--56--20 Frame manipulations completed
+INFO:root:2021-08-02-11--56--20 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--20 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--20 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--20 Sleep Check Completed
+INFO:root:2021-08-02-11--56--20 Frame manipulations completed
+INFO:root:2021-08-02-11--56--20 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--20 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--20 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--20 Sleep Check Completed
+INFO:root:2021-08-02-11--56--20 Frame manipulations completed
+INFO:root:2021-08-02-11--56--20 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--20 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--20 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--20 Sleep Check Completed
+INFO:root:2021-08-02-11--56--20 Frame manipulations completed
+INFO:root:2021-08-02-11--56--20 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--21 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--21 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--21 Sleep Check Completed
+INFO:root:2021-08-02-11--56--21 Frame manipulations completed
+INFO:root:2021-08-02-11--56--21 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--22 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--22 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--22 Sleep Check Completed
+INFO:root:2021-08-02-11--56--22 Frame manipulations completed
+INFO:root:2021-08-02-11--56--22 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--22 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--22 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--22 Sleep Check Completed
+INFO:root:2021-08-02-11--56--22 Frame manipulations completed
+INFO:root:2021-08-02-11--56--22 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--22 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--22 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--22 Sleep Check Completed
+INFO:root:2021-08-02-11--56--22 Frame manipulations completed
+INFO:root:2021-08-02-11--56--22 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--22 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--22 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--22 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--22 Sleep Check Completed
+INFO:root:2021-08-02-11--56--22 Frame manipulations completed
+INFO:root:2021-08-02-11--56--22 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--23 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--23 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--23 Sleep Check Completed
+INFO:root:2021-08-02-11--56--23 Frame manipulations completed
+INFO:root:2021-08-02-11--56--23 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--23 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--23 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--23 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--23 Sleep Check Completed
+INFO:root:2021-08-02-11--56--23 Frame manipulations completed
+INFO:root:2021-08-02-11--56--23 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--23 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--23 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--23 Sleep Check Completed
+INFO:root:2021-08-02-11--56--23 Frame manipulations completed
+INFO:root:2021-08-02-11--56--23 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--23 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--23 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--23 Sleep Check Completed
+INFO:root:2021-08-02-11--56--23 Frame manipulations completed
+INFO:root:2021-08-02-11--56--23 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--23 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--23 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--23 Sleep Check Completed
+INFO:root:2021-08-02-11--56--23 Frame manipulations completed
+INFO:root:2021-08-02-11--56--23 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--24 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--24 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--24 Sleep Check Completed
+INFO:root:2021-08-02-11--56--24 Frame manipulations completed
+INFO:root:2021-08-02-11--56--24 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--25 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--25 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--25 Sleep Check Completed
+INFO:root:2021-08-02-11--56--25 Frame manipulations completed
+INFO:root:2021-08-02-11--56--25 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--26 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--26 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--26 Sleep Check Completed
+INFO:root:2021-08-02-11--56--26 Frame manipulations completed
+INFO:root:2021-08-02-11--56--26 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--26 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--26 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--26 Sleep Check Completed
+INFO:root:2021-08-02-11--56--26 Frame manipulations completed
+INFO:root:2021-08-02-11--56--26 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--26 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--26 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--26 Sleep Check Completed
+INFO:root:2021-08-02-11--56--26 Frame manipulations completed
+INFO:root:2021-08-02-11--56--26 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--26 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--26 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--26 Sleep Check Completed
+INFO:root:2021-08-02-11--56--26 Frame manipulations completed
+INFO:root:2021-08-02-11--56--26 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--27 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--27 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--27 Sleep Check Completed
+INFO:root:2021-08-02-11--56--27 Frame manipulations completed
+INFO:root:2021-08-02-11--56--27 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--27 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--27 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--27 Sleep Check Completed
+INFO:root:2021-08-02-11--56--27 Frame manipulations completed
+INFO:root:2021-08-02-11--56--27 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--27 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--27 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--27 Sleep Check Completed
+INFO:root:2021-08-02-11--56--27 Frame manipulations completed
+INFO:root:2021-08-02-11--56--27 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--27 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--27 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--27 Sleep Check Completed
+INFO:root:2021-08-02-11--56--27 Frame manipulations completed
+INFO:root:2021-08-02-11--56--27 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--27 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--27 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--27 Sleep Check Completed
+INFO:root:2021-08-02-11--56--27 Frame manipulations completed
+INFO:root:2021-08-02-11--56--27 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--27 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--27 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--27 Sleep Check Completed
+INFO:root:2021-08-02-11--56--27 Frame manipulations completed
+INFO:root:2021-08-02-11--56--27 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--28 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--28 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--28 Sleep Check Completed
+INFO:root:2021-08-02-11--56--28 Frame manipulations completed
+INFO:root:2021-08-02-11--56--28 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--28 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--28 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--28 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--28 Sleep Check Completed
+INFO:root:2021-08-02-11--56--28 Frame manipulations completed
+INFO:root:2021-08-02-11--56--28 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--28 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--28 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--28 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--28 Sleep Check Completed
+INFO:root:2021-08-02-11--56--28 Frame manipulations completed
+INFO:root:2021-08-02-11--56--28 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--28 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--28 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--28 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--28 Sleep Check Completed
+INFO:root:2021-08-02-11--56--28 Frame manipulations completed
+INFO:root:2021-08-02-11--56--28 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--28 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--28 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--28 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--28 Sleep Check Completed
+INFO:root:2021-08-02-11--56--28 Frame manipulations completed
+INFO:root:2021-08-02-11--56--28 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--28 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--28 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--28 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--28 Sleep Check Completed
+INFO:root:2021-08-02-11--56--28 Frame manipulations completed
+INFO:root:2021-08-02-11--56--28 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--29 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--29 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--29 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--29 Sleep Check Completed
+INFO:root:2021-08-02-11--56--29 Frame manipulations completed
+INFO:root:2021-08-02-11--56--29 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--29 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--29 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--29 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--29 Sleep Check Completed
+INFO:root:2021-08-02-11--56--29 Frame manipulations completed
+INFO:root:2021-08-02-11--56--29 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--29 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--29 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--29 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--29 Sleep Check Completed
+INFO:root:2021-08-02-11--56--29 Frame manipulations completed
+INFO:root:2021-08-02-11--56--29 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--29 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--29 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--29 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--29 Sleep Check Completed
+INFO:root:2021-08-02-11--56--29 Frame manipulations completed
+INFO:root:2021-08-02-11--56--29 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--29 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--29 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--29 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--29 Sleep Check Completed
+INFO:root:2021-08-02-11--56--29 Frame manipulations completed
+INFO:root:2021-08-02-11--56--29 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--29 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--29 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--29 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--29 Sleep Check Completed
+INFO:root:2021-08-02-11--56--29 Frame manipulations completed
+INFO:root:2021-08-02-11--56--29 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--30 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--30 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--30 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--30 Sleep Check Completed
+INFO:root:2021-08-02-11--56--30 Frame manipulations completed
+INFO:root:2021-08-02-11--56--30 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--30 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--30 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--30 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--30 Sleep Check Completed
+INFO:root:2021-08-02-11--56--30 Frame manipulations completed
+INFO:root:2021-08-02-11--56--30 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--30 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--30 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--30 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--30 Sleep Check Completed
+INFO:root:2021-08-02-11--56--30 Frame manipulations completed
+INFO:root:2021-08-02-11--56--30 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--30 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--30 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--30 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--30 Sleep Check Completed
+INFO:root:2021-08-02-11--56--30 Frame manipulations completed
+INFO:root:2021-08-02-11--56--30 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--30 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--30 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--30 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--30 Sleep Check Completed
+INFO:root:2021-08-02-11--56--30 Frame manipulations completed
+INFO:root:2021-08-02-11--56--30 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--30 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--30 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--30 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--30 Sleep Check Completed
+INFO:root:2021-08-02-11--56--30 Frame manipulations completed
+INFO:root:2021-08-02-11--56--30 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--40 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--40 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--40 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--40 Sleep Check Completed
+INFO:root:2021-08-02-11--56--40 Frame manipulations completed
+INFO:root:2021-08-02-11--56--40 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--40 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--40 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--40 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--40 Sleep Check Completed
+INFO:root:2021-08-02-11--56--40 Frame manipulations completed
+INFO:root:2021-08-02-11--56--40 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--40 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--40 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--40 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--40 Sleep Check Completed
+INFO:root:2021-08-02-11--56--40 Frame manipulations completed
+INFO:root:2021-08-02-11--56--40 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--40 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--40 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--40 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--40 Sleep Check Completed
+INFO:root:2021-08-02-11--56--40 Frame manipulations completed
+INFO:root:2021-08-02-11--56--40 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--40 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--40 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--40 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--40 Sleep Check Completed
+INFO:root:2021-08-02-11--56--40 Frame manipulations completed
+INFO:root:2021-08-02-11--56--40 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--41 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--41 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--41 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--41 Sleep Check Completed
+INFO:root:2021-08-02-11--56--41 Frame manipulations completed
+INFO:root:2021-08-02-11--56--41 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--41 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--41 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--41 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--41 Sleep Check Completed
+INFO:root:2021-08-02-11--56--41 Frame manipulations completed
+INFO:root:2021-08-02-11--56--41 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--41 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--41 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--41 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--41 Sleep Check Completed
+INFO:root:2021-08-02-11--56--41 Frame manipulations completed
+INFO:root:2021-08-02-11--56--41 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--41 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--41 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--41 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--41 Sleep Check Completed
+INFO:root:2021-08-02-11--56--41 Frame manipulations completed
+INFO:root:2021-08-02-11--56--41 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--41 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--41 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--41 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--41 Sleep Check Completed
+INFO:root:2021-08-02-11--56--41 Frame manipulations completed
+INFO:root:2021-08-02-11--56--41 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--42 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--42 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--42 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--42 Sleep Check Completed
+INFO:root:2021-08-02-11--56--42 Frame manipulations completed
+INFO:root:2021-08-02-11--56--42 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--42 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--42 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--42 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--42 Sleep Check Completed
+INFO:root:2021-08-02-11--56--42 Frame manipulations completed
+INFO:root:2021-08-02-11--56--42 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--42 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--42 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--42 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--42 Sleep Check Completed
+INFO:root:2021-08-02-11--56--42 Frame manipulations completed
+INFO:root:2021-08-02-11--56--42 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--42 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--42 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--42 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--42 Sleep Check Completed
+INFO:root:2021-08-02-11--56--42 Frame manipulations completed
+INFO:root:2021-08-02-11--56--42 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--42 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--42 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--42 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--42 Sleep Check Completed
+INFO:root:2021-08-02-11--56--42 Frame manipulations completed
+INFO:root:2021-08-02-11--56--42 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--42 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--42 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--42 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--42 Sleep Check Completed
+INFO:root:2021-08-02-11--56--42 Frame manipulations completed
+INFO:root:2021-08-02-11--56--42 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--43 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--43 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--43 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--43 Sleep Check Completed
+INFO:root:2021-08-02-11--56--43 Frame manipulations completed
+INFO:root:2021-08-02-11--56--43 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--43 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--43 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--43 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--43 Sleep Check Completed
+INFO:root:2021-08-02-11--56--43 Frame manipulations completed
+INFO:root:2021-08-02-11--56--43 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--43 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--43 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--43 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--43 Sleep Check Completed
+INFO:root:2021-08-02-11--56--43 Frame manipulations completed
+INFO:root:2021-08-02-11--56--43 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--43 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--43 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--43 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--43 Sleep Check Completed
+INFO:root:2021-08-02-11--56--43 Frame manipulations completed
+INFO:root:2021-08-02-11--56--43 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--43 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--43 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--43 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--43 Sleep Check Completed
+INFO:root:2021-08-02-11--56--43 Frame manipulations completed
+INFO:root:2021-08-02-11--56--43 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--44 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--44 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--44 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--44 Sleep Check Completed
+INFO:root:2021-08-02-11--56--44 Frame manipulations completed
+INFO:root:2021-08-02-11--56--44 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--44 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--44 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--44 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--44 Sleep Check Completed
+INFO:root:2021-08-02-11--56--44 Frame manipulations completed
+INFO:root:2021-08-02-11--56--44 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--44 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--44 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--44 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--44 Sleep Check Completed
+INFO:root:2021-08-02-11--56--44 Frame manipulations completed
+INFO:root:2021-08-02-11--56--44 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--44 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--44 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--44 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--44 Sleep Check Completed
+INFO:root:2021-08-02-11--56--44 Frame manipulations completed
+INFO:root:2021-08-02-11--56--44 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--44 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--44 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--44 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--44 Sleep Check Completed
+INFO:root:2021-08-02-11--56--44 Frame manipulations completed
+INFO:root:2021-08-02-11--56--44 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--45 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--45 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--46 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--46 Sleep Check Completed
+INFO:root:2021-08-02-11--56--46 Frame manipulations completed
+INFO:root:2021-08-02-11--56--46 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--46 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--46 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--46 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--46 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--46 Sleep Check Completed
+INFO:root:2021-08-02-11--56--46 Frame manipulations completed
+INFO:root:2021-08-02-11--56--46 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--47 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--47 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--47 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--47 Sleep Check Completed
+INFO:root:2021-08-02-11--56--47 Frame manipulations completed
+INFO:root:2021-08-02-11--56--47 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--47 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--47 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--47 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--47 Sleep Check Completed
+INFO:root:2021-08-02-11--56--47 Frame manipulations completed
+INFO:root:2021-08-02-11--56--47 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--47 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--47 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--47 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--47 Sleep Check Completed
+INFO:root:2021-08-02-11--56--47 Frame manipulations completed
+INFO:root:2021-08-02-11--56--47 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--47 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--47 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--47 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--47 Sleep Check Completed
+INFO:root:2021-08-02-11--56--47 Frame manipulations completed
+INFO:root:2021-08-02-11--56--47 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--47 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--47 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--47 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--47 Sleep Check Completed
+INFO:root:2021-08-02-11--56--47 Frame manipulations completed
+INFO:root:2021-08-02-11--56--47 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--48 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--48 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--48 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--48 Sleep Check Completed
+INFO:root:2021-08-02-11--56--48 Frame manipulations completed
+INFO:root:2021-08-02-11--56--48 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--48 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--48 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--48 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--48 Sleep Check Completed
+INFO:root:2021-08-02-11--56--48 Frame manipulations completed
+INFO:root:2021-08-02-11--56--48 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--48 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--48 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--48 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--48 Sleep Check Completed
+INFO:root:2021-08-02-11--56--48 Frame manipulations completed
+INFO:root:2021-08-02-11--56--48 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--48 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--48 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--48 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--48 Sleep Check Completed
+INFO:root:2021-08-02-11--56--48 Frame manipulations completed
+INFO:root:2021-08-02-11--56--48 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--48 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--48 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--48 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--48 Sleep Check Completed
+INFO:root:2021-08-02-11--56--48 Frame manipulations completed
+INFO:root:2021-08-02-11--56--48 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--49 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--49 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--49 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--49 Sleep Check Completed
+INFO:root:2021-08-02-11--56--49 Frame manipulations completed
+INFO:root:2021-08-02-11--56--49 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--49 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--49 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--49 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--49 Sleep Check Completed
+INFO:root:2021-08-02-11--56--49 Frame manipulations completed
+INFO:root:2021-08-02-11--56--49 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--49 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--49 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--49 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--49 Sleep Check Completed
+INFO:root:2021-08-02-11--56--49 Frame manipulations completed
+INFO:root:2021-08-02-11--56--49 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--50 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--50 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--50 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--50 Sleep Check Completed
+INFO:root:2021-08-02-11--56--50 Frame manipulations completed
+INFO:root:2021-08-02-11--56--50 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--50 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--50 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--50 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--50 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--50 Sleep Check Completed
+INFO:root:2021-08-02-11--56--50 Frame manipulations completed
+INFO:root:2021-08-02-11--56--50 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--50 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--50 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--50 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--50 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--50 Sleep Check Completed
+INFO:root:2021-08-02-11--56--50 Frame manipulations completed
+INFO:root:2021-08-02-11--56--50 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--50 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--50 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--50 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--50 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--50 Sleep Check Completed
+INFO:root:2021-08-02-11--56--50 Frame manipulations completed
+INFO:root:2021-08-02-11--56--50 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--51 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--51 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--51 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--51 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--51 Sleep Check Completed
+INFO:root:2021-08-02-11--56--51 Frame manipulations completed
+INFO:root:2021-08-02-11--56--51 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--51 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--51 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--51 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--51 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--51 Sleep Check Completed
+INFO:root:2021-08-02-11--56--51 Frame manipulations completed
+INFO:root:2021-08-02-11--56--51 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--51 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--51 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--51 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--51 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--51 Sleep Check Completed
+INFO:root:2021-08-02-11--56--51 Frame manipulations completed
+INFO:root:2021-08-02-11--56--51 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--51 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--51 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--51 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--51 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--51 Sleep Check Completed
+INFO:root:2021-08-02-11--56--51 Frame manipulations completed
+INFO:root:2021-08-02-11--56--51 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--52 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--52 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--52 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--52 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--52 Sleep Check Completed
+INFO:root:2021-08-02-11--56--52 Frame manipulations completed
+INFO:root:2021-08-02-11--56--52 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--52 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--52 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--52 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--52 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--52 Sleep Check Completed
+INFO:root:2021-08-02-11--56--52 Frame manipulations completed
+INFO:root:2021-08-02-11--56--52 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--52 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--52 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--52 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--52 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--52 Sleep Check Completed
+INFO:root:2021-08-02-11--56--52 Frame manipulations completed
+INFO:root:2021-08-02-11--56--52 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--52 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--52 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--52 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--52 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--52 Sleep Check Completed
+INFO:root:2021-08-02-11--56--52 Frame manipulations completed
+INFO:root:2021-08-02-11--56--52 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--52 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--52 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--52 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--52 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--52 Sleep Check Completed
+INFO:root:2021-08-02-11--56--52 Frame manipulations completed
+INFO:root:2021-08-02-11--56--52 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--53 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--53 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--53 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--53 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--53 Sleep Check Completed
+INFO:root:2021-08-02-11--56--53 Frame manipulations completed
+INFO:root:2021-08-02-11--56--53 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--53 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--53 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--53 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--53 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--53 Sleep Check Completed
+INFO:root:2021-08-02-11--56--53 Frame manipulations completed
+INFO:root:2021-08-02-11--56--53 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--53 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--53 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--53 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--53 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--53 Sleep Check Completed
+INFO:root:2021-08-02-11--56--53 Frame manipulations completed
+INFO:root:2021-08-02-11--56--53 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--53 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--53 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--53 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--53 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--53 Sleep Check Completed
+INFO:root:2021-08-02-11--56--53 Frame manipulations completed
+INFO:root:2021-08-02-11--56--53 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--53 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--53 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--53 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--53 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--53 Sleep Check Completed
+INFO:root:2021-08-02-11--56--53 Frame manipulations completed
+INFO:root:2021-08-02-11--56--53 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--54 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--54 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--54 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--54 Sleep Check Completed
+INFO:root:2021-08-02-11--56--54 Frame manipulations completed
+INFO:root:2021-08-02-11--56--54 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--54 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--54 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--54 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--54 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--54 Sleep Check Completed
+INFO:root:2021-08-02-11--56--54 Frame manipulations completed
+INFO:root:2021-08-02-11--56--54 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--54 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--54 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--54 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--54 Sleep Check Completed
+INFO:root:2021-08-02-11--56--54 Frame manipulations completed
+INFO:root:2021-08-02-11--56--54 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--54 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--54 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--54 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--54 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--54 Sleep Check Completed
+INFO:root:2021-08-02-11--56--54 Frame manipulations completed
+INFO:root:2021-08-02-11--56--54 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--54 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--54 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--54 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--54 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--54 Sleep Check Completed
+INFO:root:2021-08-02-11--56--54 Frame manipulations completed
+INFO:root:2021-08-02-11--56--54 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--54 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--54 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--54 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--54 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--54 Sleep Check Completed
+INFO:root:2021-08-02-11--56--54 Frame manipulations completed
+INFO:root:2021-08-02-11--56--54 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--55 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--55 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--55 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--55 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--55 Sleep Check Completed
+INFO:root:2021-08-02-11--56--55 Frame manipulations completed
+INFO:root:2021-08-02-11--56--55 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--55 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--55 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--55 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--55 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--55 Sleep Check Completed
+INFO:root:2021-08-02-11--56--55 Frame manipulations completed
+INFO:root:2021-08-02-11--56--55 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--55 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--55 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--55 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--55 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--55 Sleep Check Completed
+INFO:root:2021-08-02-11--56--55 Frame manipulations completed
+INFO:root:2021-08-02-11--56--55 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--55 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--55 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--55 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--55 Sleep Check Completed
+INFO:root:2021-08-02-11--56--55 Frame manipulations completed
+INFO:root:2021-08-02-11--56--55 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--55 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--55 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--55 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--55 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--55 Sleep Check Completed
+INFO:root:2021-08-02-11--56--55 Frame manipulations completed
+INFO:root:2021-08-02-11--56--55 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--56 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--56 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--56 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--56 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--56 Sleep Check Completed
+INFO:root:2021-08-02-11--56--56 Frame manipulations completed
+INFO:root:2021-08-02-11--56--56 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--56 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--56 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--56 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--56 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--56 Sleep Check Completed
+INFO:root:2021-08-02-11--56--56 Frame manipulations completed
+INFO:root:2021-08-02-11--56--56 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--56 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--56 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--56 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--56 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--56 Sleep Check Completed
+INFO:root:2021-08-02-11--56--56 Frame manipulations completed
+INFO:root:2021-08-02-11--56--56 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--56 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--56 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--56 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--56 Sleep Check Completed
+INFO:root:2021-08-02-11--56--56 Frame manipulations completed
+INFO:root:2021-08-02-11--56--56 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--56 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--56 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--56 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--56 Sleep Check Completed
+INFO:root:2021-08-02-11--56--56 Frame manipulations completed
+INFO:root:2021-08-02-11--56--56 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--56 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--56 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--56 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--56 Sleep Check Completed
+INFO:root:2021-08-02-11--56--56 Frame manipulations completed
+INFO:root:2021-08-02-11--56--56 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--57 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--57 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--57 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--57 Sleep Check Completed
+INFO:root:2021-08-02-11--56--57 Frame manipulations completed
+INFO:root:2021-08-02-11--56--57 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--57 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--57 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--57 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--57 Sleep Check Completed
+INFO:root:2021-08-02-11--56--57 Frame manipulations completed
+INFO:root:2021-08-02-11--56--57 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--57 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--57 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--57 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--57 Sleep Check Completed
+INFO:root:2021-08-02-11--56--57 Frame manipulations completed
+INFO:root:2021-08-02-11--56--57 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--57 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--57 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--57 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--57 Sleep Check Completed
+INFO:root:2021-08-02-11--56--57 Frame manipulations completed
+INFO:root:2021-08-02-11--56--57 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--57 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--57 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--57 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--57 Sleep Check Completed
+INFO:root:2021-08-02-11--56--57 Frame manipulations completed
+INFO:root:2021-08-02-11--56--57 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--57 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--57 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--58 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--58 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--58 Sleep Check Completed
+INFO:root:2021-08-02-11--56--58 Frame manipulations completed
+INFO:root:2021-08-02-11--56--58 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--58 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--58 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--58 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--58 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--58 Sleep Check Completed
+INFO:root:2021-08-02-11--56--58 Frame manipulations completed
+INFO:root:2021-08-02-11--56--58 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--58 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--58 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--58 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--58 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--58 Sleep Check Completed
+INFO:root:2021-08-02-11--56--58 Frame manipulations completed
+INFO:root:2021-08-02-11--56--58 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--58 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--58 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--58 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--58 Sleep Check Completed
+INFO:root:2021-08-02-11--56--58 Frame manipulations completed
+INFO:root:2021-08-02-11--56--58 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--58 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--58 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--58 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--58 Sleep Check Completed
+INFO:root:2021-08-02-11--56--58 Frame manipulations completed
+INFO:root:2021-08-02-11--56--58 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--58 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--58 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--58 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--58 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--58 Sleep Check Completed
+INFO:root:2021-08-02-11--56--58 Frame manipulations completed
+INFO:root:2021-08-02-11--56--58 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--59 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--59 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--59 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--59 Sleep Check Completed
+INFO:root:2021-08-02-11--56--59 Frame manipulations completed
+INFO:root:2021-08-02-11--56--59 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--59 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--59 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--59 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--59 Sleep Check Completed
+INFO:root:2021-08-02-11--56--59 Frame manipulations completed
+INFO:root:2021-08-02-11--56--59 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--59 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--59 Anomally Detected, starting call for more frames
+INFO:root:2021-08-02-11--56--59 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--59 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--59 Sleep Check Completed
+INFO:root:2021-08-02-11--56--59 Frame manipulations completed
+INFO:root:2021-08-02-11--56--59 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--59 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--59 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--59 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--59 Sleep Check Completed
+INFO:root:2021-08-02-11--56--59 Frame manipulations completed
+INFO:root:2021-08-02-11--56--59 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--59 MovingFrameQueue Popped
+INFO:root:2021-08-02-11--56--59 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--59 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--59 Sleep Check Completed
+INFO:root:2021-08-02-11--56--59 Frame manipulations completed
+INFO:root:2021-08-02-11--56--59 Bounding Box Drawn
+INFO:root:2021-08-02-11--56--59 MovingFrameQueue Appended
+INFO:root:2021-08-02-11--56--59 Anomally Video Output unsuccessful
+INFO:root:2021-08-02-11--56--59 Colour Conversion Completed
+INFO:root:2021-08-02-11--56--59 Sleep Check Completed
+INFO:root:2021-08-02-11--56--59 Frame manipulations completed
+INFO:root:2021-08-02-11--56--59 Bounding Box Drawn
+INFO:root:2021-08-02-11--57--00[INFO] elapsed time: 46.27
+INFO:root:2021-08-02-11--57--00[INFO] approx. FPS: 3.44
+INFO:root:2021-08-02-11--57--00 Getting Auth Token Success
+INFO:root:2021-08-02-11--57--00 BedTime Upload Completed

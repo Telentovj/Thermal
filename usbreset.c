@@ -6,6 +6,12 @@
 
 #include <linux/usbdevice_fs.h>
 
+// Get the Bus and Device ID of the USB device you want to reset:
+// $ lsusb  
+// Bus 002 Device 003: ID 0fe9:9010 DVICO  
+
+// Execute the program with sudo privilege; make necessary substitution for <Bus> and <Device> ids as found by running the lsusb command:
+// $ sudo ./usbreset /dev/bus/usb/002/003  
 
 int main(int argc, char **argv)
 {

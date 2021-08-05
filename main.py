@@ -10,6 +10,9 @@ import cv2
 import logging
 from helpers import *
 import time
+import numpy as np
+import os
+import time 
 
 
 def startStream(args):
@@ -29,7 +32,7 @@ def startStream(args):
 
         # initialize list of beds, each bed will be a series of bounding boxes.
         # xmin ymin xmax ymax
-        bedbbox=[[45,0,78,45]]
+        bedbbox=[[35,70,70,105]]
         # bedbbox=[[10,80,35,118],[50,80,75,118],[90,80,115,118]]
         bedbboxID = ["D429F794-C889-4FC2-8439-00ABD9BC5F3C","24CB2FD9-B15C-49D7-9C8F-0DF7F3DB14D9","74922366-AA42-437F-9E6E-EFBEDF9700B6"]
         anomallyHistoryTracker = [0]*len(bedbbox)
@@ -88,7 +91,14 @@ def startStream(args):
             frame = cv2.resize(frame, (128,128))
             colourFrame = frame
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+
+            # Check sleep and anomally here
+            # Get colours
             bedbboxColours = getColours(frame,bedbbox)
+            # Get Normalized Colours
+            bedbboxColours = getNormalizedColours(bedbboxColours)
+            # Get Detections and Anomally Detections
             consecutiveDetectionCount,consecutiveAnomallyDetectionCount = checkSleep(bedbboxColours,bedCounter,bedAnomallyCounter,colourThreshold,percentageThreshold,percentageAnomallyThreshold,bedTime,consecutiveDetectionCount,consecutiveAnomallyDetectionCount,minTime)
             
             # frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
@@ -111,7 +121,7 @@ def startStream(args):
             if bedAnomallyCounter[i] > 0:
                 cv2.putText(colourFrame,  str(round(bedTime[i],1)), (int(bedbbox[i][0]+(bedbbox[i][2]-bedbbox[i][0])/2), int(bedbbox[i][1]+(bedbbox[i][3]-bedbbox[i][1])/2)), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (0,0,255), 1) 
             else:
-                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (int(bedbbox[i][0]+(bedbbox[i][2]-bedbbox[i][0])/2), int(bedbbox[i][1]+(bedbbox[i][3]-bedbbox[i][1])/2)), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (255,255,255), 1) 
+                cv2.putText(colourFrame,  str(round(bedTime[i],1)), (int(bedbbox[i][0]+(bedbbox[i][2]-bedbbox[i][0])/2), int(bedbbox[i][1]+(bedbbox[i][3]-bedbbox[i][1])/2)), cv2.FONT_HERSHEY_SIMPLEX, 0.20, (0,255,60), 1) 
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
         logging.info(current + " Bounding Box Drawn")
 
@@ -150,8 +160,7 @@ def startStream(args):
                 current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
                 logging.info(current + " Anomally Detected, starting call for more frames")
         
-        # print(bedAnomallyDetectedAt)
-        # print(anomallyHistoryTracker)
+
         
         for i in range(len(bedAnomallyDetectedAt)):
             if bedAnomallyDetectedAt[i] == 1:
@@ -169,7 +178,7 @@ def startStream(args):
         if anomallyFrameTracker[0] != 0:
             accumulativeFrameQueue.append(colourFrame)
             anomallyFrameTracker[0] -= 1
-        print(anomallyFrameTracker[0])
+
         try:
             if anomallyFrameTracker[0] == 0 and len(accumulativeFrameQueue) >= 51:
                 anomallyfourcc = cv2.VideoWriter_fourcc(*'avc1')
@@ -213,7 +222,7 @@ def startStream(args):
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.info(current + " Anomally Video Output unsuccessful")
     
-    updateBedTime(bedTime,bedbboxID)
+    #updateBedTime(bedTime,bedbboxID)
     # do a bit of cleanup
     cv2.destroyAllWindows()
     vs.release()
@@ -228,15 +237,15 @@ def driver():
         help="path to input video file")
     ap.add_argument("-o", "--output", type=str,
         help="path to optional output video file")
-    ap.add_argument("-c", "--colour", default = 130, 
-        help="Value from 0-255 to represent colour")
-    ap.add_argument("-n", "--percentage", default = 0.20, 
+    ap.add_argument("-c", "--colour", default = 0.50, 
+        help="Value from 0-1 to represent normalizedcolour")
+    ap.add_argument("-n", "--percentage", default = 0.25, 
         help="percentage of bed bb required to consider normal detection")
     ap.add_argument("-a", "--anomally", default = 0.50,
         help="percentage of bed bb required to consider anomalous detection")
     ap.add_argument("-t", "--timeSuppression", default = 31860,
         help="Time between anomalous detections for single bed, default at 1 hr, 31860 frames")
-    ap.add_argument("-tt", "--minTimeDetect", default = 30,
+    ap.add_argument("-tt", "--minTimeDetect", default = 0,
         help="Minimum time required for something to be considered a detection")
     args = vars(ap.parse_args())
     # Start streaming
