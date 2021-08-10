@@ -64,8 +64,6 @@ class ThermalSensor:
     # Counter to track consecutive anomalous detections
     consecutiveAnomallyDetectionCount = 0
 
-
-    
     def __init__(self,colour,percentage,anomally,minTimeDetect,output,timeSuppression, halfVideo, timeOut):
         #Logger
         current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
@@ -152,14 +150,16 @@ class ThermalSensor:
         return buffer
 
     def getDifferenceFromMean(self,colors):
+        # Colors is a list of list where there is a list for each bed and each bed has a list of numbers indicating colour within bedbbox
         buffer = []
-        totalValue = 0
         for i in range(len(colors)):
+            totalValue = 0
             buffer.append([])
-            totalValue += colors[i]
-        meanValue = totalValue/len(colors)
-        for i in range(len(colors)):
-            buffer[i] = colors[i]-meanValue
+            for j in range(len(colors[i])):
+                totalValue += colors[i][j]
+            meanValue = totalValue/len(colors[i])
+            for j in range(len(colors[i])):
+                buffer[i].append(colors[i][j]-meanValue)
         return buffer
 
     def checkSleep(self,bedbboxColours):
@@ -180,6 +180,8 @@ class ThermalSensor:
                 for j in range(len(bedbboxColours[i])):
                     if bedbboxColours[i][j] > colourThreshold:
                         detectionCount += 1
+                print(detectionCount)
+                print(countNeeded)
                 if(detectionCount > countNeeded):
                     bedCounter[i] = 1
                     consecutiveDetectionCount += 1
@@ -204,8 +206,6 @@ class ThermalSensor:
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.error(current + " Sleep Check Failed")
-
-
 
     def updateAnomalousBehaviour(self,videoName):
         try:
@@ -253,7 +253,6 @@ class ThermalSensor:
         except:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.error(current + " Anomalous Detection Video Upload Failed")
-
 
     def updateBedTime(self):
         try:
@@ -304,7 +303,6 @@ class ThermalSensor:
             current = datetime.now().strftime('%Y-%m-%d-%H--%M--%S')
             logging.error(current + " BedTime Upload Failed")
 
-
     def startStream(self):
         timeout = 60*60*self.timeOut
         timeout_start = time.time()
@@ -337,10 +335,9 @@ class ThermalSensor:
                 # Get colours
                 bedbboxColours = self.getColours(frame)
                 # Get Normalized Colours
-                bedbboxColours = self.getNormalizedColours(bedbboxColours)
+                # bedbboxColours = self.getNormalizedColours(bedbboxColours)
                 # Get difference from mean colors
-                # bedbboxColours = self.getDifferenceFromMean(bedbboxColours)
-                print(bedbboxColours)
+                bedbboxColours = self.getDifferenceFromMean(bedbboxColours)
                 # Get Detections and Anomally Detections
                 consecutiveDetectionCount,consecutiveAnomallyDetectionCount = self.checkSleep(bedbboxColours)
                 
@@ -475,11 +472,11 @@ def driver():
         help="path to input video file")
     ap.add_argument("-o", "--output", type=str,
         help="path to optional output video file")
-    ap.add_argument("-c", "--colour", default = 50, 
-        help="Value from 0-1 to represent normalizedcolour")
-    ap.add_argument("-n", "--percentage", default = 0.35, 
+    ap.add_argument("-c", "--colour", default = 0, 
+        help="Value to serve as the cut off for when we consider a pixel a human")
+    ap.add_argument("-n", "--percentage", default = 0.28, 
         help="percentage of bed bb required to consider normal detection")
-    ap.add_argument("-a", "--anomally", default = 0.60,
+    ap.add_argument("-a", "--anomally", default = 0.5,
         help="percentage of bed bb required to consider anomalous detection")
     ap.add_argument("-t", "--timeSuppression", default = 31860,
         help="Time between anomalous detections for single bed, default at 1 hr, 31860 frames")
